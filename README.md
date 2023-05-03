@@ -157,9 +157,9 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Work section]**
-- [ ] **[About Myself]**
-- [ ] **[Contact form]**
+- [ ] **[work on desktop section]**
+
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
