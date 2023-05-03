@@ -18,7 +18,7 @@ body {
   background-color: #fff;
 }
 
-.hd {
+.header {
   height: 1px;
 }
 
@@ -94,7 +94,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  margin: 0px 3.2%;
+  margin: 0 3.2%;
 }
 
 .card {
