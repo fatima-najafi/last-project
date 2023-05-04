@@ -39,10 +39,7 @@ header {
   text-decoration: none;
   color: inherit;
   left: 76px;
-
-  
 }
- 
 
 .nav-menu-button {
   margin-right: 24px;
@@ -65,7 +62,6 @@ header {
   margin: 0 0.5em;
 }
 
-/**/
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -112,18 +108,17 @@ nav a:hover {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   visibility: hidden;
-
 }
 
 @keyframes slide-in {
-  0%   {
+  0% {
     margin-left: 105%;
-    visibility:visible;
+    visibility: visible;
   }
-  
+
   100% {
     margin-left: 0%;
-    visibility:visible;
+    visibility: visible;
   }
 }
 
@@ -133,7 +128,6 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
-     
 
 .connect {
   color: #7f8cff;
@@ -142,7 +136,7 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
-  
+
 .headline ul {
   display: flex;
 }
@@ -184,17 +178,12 @@ nav a:hover {
 }
 
 .card h2 {
-  
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
   font-style: normal;
   padding: 0.25em 0;
- 
-}
-.card h2{
-  margin: 0;
 }
 
 .card p {
@@ -208,13 +197,9 @@ nav a:hover {
   display: flex;
   align-items: center;
   font-weight: 600;
-  
- 
-
   flex-direction: row;
   font-size: 15px;
   line-height: 16px;
-  font-weight: 600;
   color: #7a869a;
 }
 
@@ -381,12 +366,11 @@ form {
   margin-top: 40px;
   margin-left: 200px;
   margin-right: 200px;
-  
-    background-image: url(./assets/contact\ form\ background\ shapes.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    padding: 17% 0%;
+  background-image: url(./assets/contact\ form\ background\ shapes.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 17% 0%;
 }
 
 .contact {
@@ -396,30 +380,23 @@ form {
   justify-content: center;
   background: url("./assets/images/contactform-shapes.png");
   border-top-left-radius: 60px;
-  /*padding: 74px 5%;
+
+  /* padding: 74px 5%;
   background-position: center;
    background-position-x: right;
   background-position-y: 23px;
   */
   gap: 12px;
-  
   background-repeat: no-repeat;
   background-size: 222px 759px;
- 
   width: auto;
   height: 100%;
   background-color: #6070ff;
-
-  
   font-family: "Poppins", sans-serif;
   color: white;
   padding: 1% 8%;
-  border-radius: 80px 0 0 0;
- 
   background-position: right;
-  
 }
-
 
 .contact h2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -441,17 +418,11 @@ form {
   text-align: center;
   vertical-align: top;
   color: #ebebff;
- /*margin: 20 auto;*/
+
+  /* margin: 20 auto; */
   font-weight: 400;
   margin-top: 0.75em;
   margin-left: 30px;
- 
-
-  
- 
-
-  
-
 }
 
 .contact input,
@@ -460,9 +431,9 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 10px 15px 10px;
-  
-  /*width: 300px;
-  margin: 12px 0 12px 0;*/
+
+  /* width: 300px;
+  margin: 12px 0 12px 0; */
   text-align: left;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -470,13 +441,8 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
-
-
   margin-top: 0.75em;
-  padding: 0.75em;
-  border-radius: 0.75em;
   width: 100%;
- 
 }
 
 #submit {
@@ -518,19 +484,6 @@ textarea {
   border: 2px solid #5e6c84;
 }
 
-/*
-.fcontact .btn:hover {
-  background-color: #6070ff;
-  color: white;
-  border: 2px solid #fff;
-}
-
-.fcontact .btn:active {
-  background-color: #2230d2;
-  color: white;
-  border: 2px solid #fff;
-} */
-
 input:focus,
 textarea:focus {
   outline: none;
@@ -548,41 +501,4 @@ textarea:focus {
 
 .contact-section {
   background-color: white;
-}
-
-/**/
-
-@media screen and (min-width: 768px) {
-
-
-  header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 5em;
-  }
-
-  .hamberger {
-    display: none;
-  }
-
-  .nav-menu-button {
-    display: none;
-  }
-
-  .nav-links {
-    display: flex;
-  }
-
-  .headline-main {
-    margin-top: 5em;
-    background-image: url(./assets/Header\ bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    left: 34.6px;
-  }
-  form{
-    align-items: center;
-  }
- 
 }
