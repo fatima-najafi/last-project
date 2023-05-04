@@ -1,15 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-  margin: 0;
   padding: 0;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
   list-style: none;
-  font-size: 16;
 }
 
 body {
-  background-color: #e5e5e5;
+  position: relative;
+  background-color: #f7f7f9;
 }
 
+.heading-large {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 52px;
+}
+
+header {
+  background-color: #fff;
+  color: #6070ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: inherit;
+  left: 76px;
+
+  
+}
+ 
+
+.nav-menu-button {
+  margin-right: 24px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: none;
+  color: #344563;
+  font-weight: 600;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 0.625em 0.75em;
+}
+
+.nav-link:nth-child(even) {
+  margin: 0 0.5em;
+}
+
+/**/
 .toolbar {
   display: flex;
   justify-content: space-between;
@@ -38,9 +94,9 @@ nav a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position-y: 66px;
+  background-position-y: 9px;
   background-position-x: right;
-  height: 148vh;
+  height: 116vh;
   width: auto;
   background-color: #fff;
   border-bottom-left-radius: 60px;
@@ -52,6 +108,23 @@ nav a:hover {
   line-height: 52px;
   color: #172b4d;
   margin-top: 135px;
+  animation-name: slide-in;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+
+}
+
+@keyframes slide-in {
+  0%   {
+    margin-left: 105%;
+    visibility:visible;
+  }
+  
+  100% {
+    margin-left: 0%;
+    visibility:visible;
+  }
 }
 
 .intro {
@@ -60,6 +133,7 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
+     
 
 .connect {
   color: #7f8cff;
@@ -68,7 +142,7 @@ nav a:hover {
   font-size: 16px;
   line-height: 24px;
 }
-
+  
 .headline ul {
   display: flex;
 }
@@ -100,7 +174,7 @@ nav a:hover {
 }
 
 .card {
-  display: flex;
+  display: block;
   flex-direction: column;
   padding: 4.5%;
   background-color: #fff;
@@ -110,10 +184,17 @@ nav a:hover {
 }
 
 .card h2 {
+  
   font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
+  font-style: normal;
+  padding: 0.25em 0;
+ 
+}
+.card h2{
+  margin: 0;
 }
 
 .card p {
@@ -127,9 +208,14 @@ nav a:hover {
   display: flex;
   align-items: center;
   font-weight: 600;
-  font-size: 13px;
+  
+ 
+
+  flex-direction: row;
+  font-size: 15px;
   line-height: 16px;
-  margin-bottom: 8px;
+  font-weight: 600;
+  color: #7a869a;
 }
 
 .xp p {
@@ -293,6 +379,14 @@ hr {
 
 form {
   margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+    background-image: url(./assets/contact\ form\ background\ shapes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 17% 0%;
 }
 
 .contact {
@@ -302,17 +396,30 @@ form {
   justify-content: center;
   background: url("./assets/images/contactform-shapes.png");
   border-top-left-radius: 60px;
-  padding: 74px 5%;
-  gap: 12px;
+  /*padding: 74px 5%;
   background-position: center;
+   background-position-x: right;
+  background-position-y: 23px;
+  */
+  gap: 12px;
+  
   background-repeat: no-repeat;
   background-size: 222px 759px;
-  background-position-x: right;
-  background-position-y: 23px;
+ 
   width: auto;
   height: 100%;
   background-color: #6070ff;
+
+  
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 1% 8%;
+  border-radius: 80px 0 0 0;
+ 
+  background-position: right;
+  
 }
+
 
 .contact h2 {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -328,12 +435,23 @@ form {
 
 .contact p {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-style: regular;
+  font-style: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   vertical-align: top;
   color: #ebebff;
+ /*margin: 20 auto;*/
+  font-weight: 400;
+  margin-top: 0.75em;
+  margin-left: 30px;
+ 
+
+  
+ 
+
+  
+
 }
 
 .contact input,
@@ -342,8 +460,9 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 10px 15px 10px;
-  margin: 12px 0 12px 0;
-  width: 300px;
+  
+  /*width: 300px;
+  margin: 12px 0 12px 0;*/
   text-align: left;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -351,6 +470,13 @@ textarea {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+
+
+  margin-top: 0.75em;
+  padding: 0.75em;
+  border-radius: 0.75em;
+  width: 100%;
+ 
 }
 
 #submit {
@@ -422,4 +548,41 @@ textarea:focus {
 
 .contact-section {
   background-color: white;
+}
+
+/**/
+
+@media screen and (min-width: 768px) {
+
+
+  header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 5em;
+  }
+
+  .hamberger {
+    display: none;
+  }
+
+  .nav-menu-button {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .headline-main {
+    margin-top: 5em;
+    background-image: url(./assets/Header\ bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 34.6px;
+  }
+  form{
+    align-items: center;
+  }
+ 
 }
