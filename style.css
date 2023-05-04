@@ -287,17 +287,21 @@ visibility: hidden;
   padding: 12px;
   text-align: center;
   cursor: pointer;
+  transition: padding 1s;
 }
+
+.btn:hover{
+  padding:10px;
+  background-color: #6070ff;
+  color: #fff;
+}
+
 
 .btn:active {
   background-color: #2230d2;
   color: #fff;
 }
 
-.btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
 
 .about {
   display: flex;
