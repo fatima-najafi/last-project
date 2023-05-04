@@ -157,7 +157,6 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[work on desktop section]**
 
 
 
