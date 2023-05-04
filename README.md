@@ -157,7 +157,7 @@ Your working browser.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop Version]**
+
 
 
 ## 🤝 Contributing <a name="contributing"></a>
