@@ -127,6 +127,22 @@ nav a:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+animation-name: slide;
+animation-duration: 2s;
+animation-fill-mode: forwards;
+
+visibility: hidden;
+}
+@keyframes slide {
+0%   {
+  margin-left: 105%;
+  visibility:visible;
+}
+
+100% {
+  margin-left: 0%;
+  visibility:visible;
+}
 }
 
 .connect {
@@ -256,17 +272,21 @@ nav a:hover {
   padding: 12px;
   text-align: center;
   cursor: pointer;
+  transition: padding 1s;
 }
+
+.btn:hover{
+  padding:10px;
+  background-color: #6070ff;
+  color: #fff;
+}
+
 
 .btn:active {
   background-color: #2230d2;
   color: #fff;
 }
 
-.btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
 
 .about {
   display: flex;
