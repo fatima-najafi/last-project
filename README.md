@@ -3,7 +3,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>setup and mobile first</b></h3>
+  <h3><b>setup desktop version</b></h3>
 
 </div>
 
@@ -151,7 +151,7 @@ Your working browser.
 
 👤 **Fatima Najafi**
 
-- GitHub: [@githubhandle](https://github.com/fatima-najafi/Portfolio-microverse)
+- GitHub: [@githubhandle](https://github.com/fatima-najafi)
 - Twitter: [@twitterhandle](https://twitter.com)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatima-najafi-75424a23a/)
 

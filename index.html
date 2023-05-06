@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
+    <title>desktop-day2</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <header>
-    <h2 class="logo"><a href="#">Fatima</a></h2>
-    <nav>
-        <div class="hamberger">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M3 7C3 6.44772 3.44772 6 4 6H20C20.5523 6 21 6.44772 21 7C21 7.55228 20.5523 8 20 8H4C3.44772 8 3 7.55228 3 7ZM3 12C3 11.4477 3.44772 11 4 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L4 13C3.44772 13 3 12.5523 3 12ZM4 16C3.44772 16 3 16.4477 3 17C3 17.5523 3.44772 18 4 18H20C20.5523 18 21 17.5523 21 17C21 16.4477 20.5523 16 20 16H4Z"
-                fill="#6070FF" />
-        </svg>
-    </div>
-        <ul class="nav-links">
-            <li class="nav-link">Portfolio</li>
-            <li class="nav-link">About</li>
-            <li class="nav-link">Contact</li>
-        </ul>
-    </nav>     
-   </header>
+    <section class="hd">
+    <header class="toolbar">
+        <div class="logo">
+        <a href="#">
+        <img src="./assets/images/My Logo.png" alt="Logo">
+        </a>
+        </div>
+        <nav>
+        
+        <div class="dropdown">
+        <a href="#">
+        <img src="./assets/images/dropdown.png" alt="Dropdown menu">
+        </a>
+        </div>
+
+        <div class="menu">
+            <p>Portfolio</p>
+            <p>About</p>
+            <p>Contact</p>
+          </div>
+        </nav>
+    </header>
+    </section>
+
     <section class="headline">
-            <h1 class="name">I'm fatima. <br/>Glad to see <br/>you!</h1>
+            <h1 class="name">I'm Fatima. <br/>Glad to see <br/>you!</h1>
 
             <p class="intro">
                 I’m a software developer! I can help you build a product , feature
@@ -35,15 +42,15 @@
                 contact me.
             </p>
 
-            <h3 class="connect">LET'S CONNECT</h3>
+            <h3 class="connect1">LET'S CONNECT</h3>
 
             <ul>
                 <li>
-                    <a href="https://twitter.com/malikhaiderkha"><img src="./assets/images/twitter.png"></a>
+                    <a href="https://twitter.com"><img src="./assets/images/twitter.png"></a>
                 </li>
 
                 <li>
-                    <a href="https://www.linkedin.com/in/malik-haider-khan-b53188140"><img src="./assets/images/linkedin.png"></a>
+                    <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"><img src="./assets/images/linkedin.png"></a>
                 </li>
 
                 <li>
@@ -51,7 +58,7 @@
                 </li>
 
                 <li>
-                    <a href="https://github.com/malikhaiderkhan"><img src="./assets/images/github.png"></a>
+                    <a href="https://github.com/fatima-najafi"><img src="./assets/images/github.png"></a>
                 </li>
 
                 <li>
@@ -62,7 +69,8 @@
 
     <section class="portfolio">
         <div class="card">
-            <img src="./assets/images/card1.png" alt="card1">
+            <img class="left-card" src="./assets/images/card1.png" alt="card1">
+            <div class="right-card">
             <h2>Tonic</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -71,27 +79,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-            <ul class="skills">
-                <li class="skill-list">HTML</li>
-                <li class="skill-list">CSS</li>
-                <li class="skill-list">JavaScript</li>
-            </ul>
-
-            <input class="btn" type="button" value="See project">
-        </div>
-
-        <div class="card">
-            <img src="./assets/images/card2.png" alt="card2">
-            <h2>Multi-Post Stories</h2>
-            <div class="xp">
-                <p>Canopy</p>
-                <ul>
-                    <li>Back End Dev</li>
-                    <li>2015</li>
-                </ul>
-            </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -100,9 +88,33 @@
 
             <input class="btn" type="button" value="See project">
         </div>
+        </div>
 
         <div class="card">
-            <img src="./assets/images/card3.png" alt="card3">
+            <img class="left-card reverse-left" src="./assets/images/card2.png" alt="card2">
+            <div class="right-card reverse-right">
+            <h2>Multi-Post Stories</h2>
+            <div class="xp">
+                <p>Canopy</p>
+                <ul>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+            </div>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <ul class="skills">
+                <li class="sbox">HTML</li>
+                <li class="sbox">CSS</li>
+                <li class="sbox">JavaScript</li>
+            </ul>
+
+            <input class="btn" type="button" value="See project">
+        </div>
+        </div>
+
+        <div class="card">
+            <img class="left-card" src="./assets/images/card3.png" alt="card3">
+            <div class="right-card">
             <h2>Tonic</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -111,7 +123,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -120,9 +132,11 @@
 
             <input class="btn" type="button" value="See project">
         </div>
+        </div>
 
         <div class="card">
-            <img src="./assets/images/card4.png" alt="card4">
+            <img class="left-card reverse-left" src="./assets/images/card4.png" alt="card4">
+            <div class="right-card reverse-right">
             <h2>Multi-Post Stories</h2>
             <div class="xp">
                 <p>Canopy</p>
@@ -131,7 +145,7 @@
                     <li>2015</li>
                 </ul>
             </div>
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <p class="project-info">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
             <ul class="skills">
                 <li class="sbox">HTML</li>
                 <li class="sbox">CSS</li>
@@ -139,6 +153,7 @@
             </ul>
 
             <input class="btn" type="button" value="See project">
+        </div>
         </div>
     </section>
 
@@ -149,15 +164,15 @@
             Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
         </p>
         
-        <h3 class="connect">LET'S CONNECT</h3>
+        <h3 class="connect2">LET'S CONNECT</h3>
         
         <ul class="icons">
             <li>
-                <a href="https://twitter.com/malikhaiderkha"><img src="./assets/images/twitter.png"></a>
+                <a href="https://twitter.com"><img src="./assets/images/twitter.png"></a>
             </li>
 
             <li>
-                <a href="https://www.linkedin.com/in/malik-haider-khan-b53188140"><img src="./assets/images/linkedin.png"></a>
+                <a href="https://www.linkedin.com/in/fatima-najafi-75424a23a/"><img src="./assets/images/linkedin.png"></a>
             </li>
 
             <li>
@@ -165,7 +180,7 @@
             </li>
 
             <li>
-                <a href="https://github.com/malikhaiderkhan"><img src="./assets/images/github.png"></a>
+                <a href="https://github.com/fatima-najafi"><img src="./assets/images/github.png"></a>
             </li>
 
             <li>
@@ -222,11 +237,9 @@
               >
             <input type="text" name="name" id="name" class="plc" placeholder="Lorem Ipsum" maxlength="30" required>
             <input type="email" name="email" id="email" class="plc" pattern="[^ @]*@[^ @]*" placeholder="loremipsum@gmail.com"  required>
-            <textarea rows="7" cols="30" placeholder="Write your messsage here..."  required maxlength="500"></textarea>
-            <button type="submit" id="submit" class="btn">Get in touch</button>
+            <textarea rows="7" cols="30" class="msg" placeholder="Write your messsage here..."  required maxlength="500"></textarea>
+            <button type="submit" id="submit">Get in touch</button>
          </form>
-            
-               
         </section>
     </section>
    
