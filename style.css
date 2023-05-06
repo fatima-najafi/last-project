@@ -484,8 +484,6 @@ textarea:focus {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    /* padding: 18%; */
     margin: 0;
     gap: 12px;
     z-index: 0;
